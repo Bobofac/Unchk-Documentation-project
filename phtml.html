@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Unchk Documentation</title>
+</head>
+<body>
+    <header class="nav-container" >
+        <nav>
+            <h2 class="logo"><a href="home.html"><i class="fa-brands fa-dev"></i> Unchk-Documentation</a></h2>
+            <ul>
+                <li><a href="home.html">Acceuil</a></li>
+                <li><a href="cours.html">Cours</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        <div class="btn">
+            <button class="login-btn"><a href="#">Connection</a></button>
+            <button class="login-btn"><a href="#">S'inscrire</a></button>
+        </div>    
+        </nav>
+    </header>
+    <!-- Html page -->
+
+    <section class="html-page">     
+        <div class="container">     
+            <h1>HTML</h1>
+            <p>Découvrez les bases du langage qui structure le web.</p>
+            <div class="cards">
+                <div class="card" id="card1">
+                    <img src="introduction.png" alt="Introduction">
+                    <h2>Introduction</h2>
+                    <div class="card-content">
+                        <a href="#">Introduction au cours HTML et CSS</a>
+                        <a href="#">Définition et usage du HTML et CSS</a>
+                        <a href="#">Evolution de l'informatique et des langages Web</a>
+                        <a href="#">Travail en local et en production</a>
+                        <a href="#">Choix et installation d'un éditeur de texte</a>
+                    </div>
+                </div>
+    
+                <div class="card" id="card2" >
+                    <img src="bases.png" alt="Les Bases">
+                    <h2>Les Bases</h2>
+                    <div class="card-content">
+                        <a href="#">Éléments, balises et attributs</a>
+                        <a href="#">Structure d'une page HTML</a>
+                        <a href="#">Enregistrement et affichage d’une page</a>
+                        <a href="#">L’indentation et les commentaires</a>
+                        <a href="#">Titres et paragraphes</a>
+                        <a href="#">Les espaces et retours à la ligne</a>
+                        <a href="#">Définir le niveau d’importance des contenus</a>
+                        <a href="#">Créer des listes</a>
+                        <a href="#">Créer des liens</a>
+                        <a href="#">Envoi de mails et téléchargement de fichiers</a>
+                        <a href="#">Les titres et les paragraphes</a>
+                        <a href="#">Compatibilité, support et validation du code HTML et CSS</a>
+                    </div>
+                </div>
+    
+                <div class="card" id="card3">
+                    <img src="tableaux.jpg" alt="Tableaux">
+                    <h2>Tableaux</h2>
+                    <div class="card-content">
+                        <a href="#">Créer des tableaux</a>
+                        <a href="#">Structurer un tableau</a>
+                        <a href="#">Mettre en forme un tableau HTML avec du CSS</a>
+                    </div>
+                </div>
+    
+                <div class="card" id="card4">
+                    <img src="medias.png" alt="Médias">
+                    <h2>Médias</h2>
+                    <div class="card-content">
+                        <a href="#">Insérer des images</a>
+                        <a href="#">Insérer de la musique</a>
+                        <a href="#">Insérer des vidéos</a>
+                        <a href="#">Utiliser l'élément iframe</a>
+                    </div>
+                </div>
+                
+                <div class="card" id="card5">
+                    <img src="formulaires.jpg" alt="Médias">
+                    <h2>Formulaires</h2>
+                    <div class="card-content">
+                        <a href="#">Présentation des formulaires</a>
+                        <a href="#">Les éléments des formulaires</a>
+                        <a href="#">Attributs des formulaires et sécurité</a>
+                    </div>
+                </div>
+                
+                <div class="card" id="card6">
+                    <img src="semantique.png" alt="Médias">
+                    <h2>Semantique</h2>
+                    <div class="card-content">
+                        <a href="#">Sémantique et éléments structurants du HTML</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <footer>
+        <div class="footer-container">
+           <h2 class="footer-logo"><a href="home.html">Unchk-Documentation</a></h2>
+           <div class="icons">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-linkedin"></i>
+               <i class="fa-solid fa-square-envelope"></i>
+               <i class="fa-brands fa-github"></i>
+               <i class="fa-brands fa-youtube"></i>
+           </div><hr class="row">
+           <div class="copy"><p>&copy; Copyright 2025, Designed By <span class="author">Obj</span> & <span class="author">MK</span></p></div>
+        </div>    
+        </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const cards = document.querySelectorAll('.card');
+      
+          cards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+              const cardContent = card.querySelector('.card-content');
+              cardContent.style.overflow = 'auto'; // Active le défilement
+            });
+      
+            card.addEventListener('mouseleave', function() {
+              const cardContent = card.querySelector('.card-content');
+              cardContent.style.overflow = 'hidden'; // Désactive le défilement
+            });
+          });
+        });
+      </script>
+</body>
